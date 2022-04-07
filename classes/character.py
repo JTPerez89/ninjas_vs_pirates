@@ -16,7 +16,7 @@ class Character:
         if roll == 20:
             target.health -= (self.strength * 2)
             print(f'{self.name} surprisingly landed a good shot, critical hit! {target.name} left with {target.health} health')
-        elif roll > target.speed:
+        elif roll >= target.speed:
             target.health -= self.strength
             print(f'{target.name} takes {self.strength} damage, left with {target.health} health.')
             return self

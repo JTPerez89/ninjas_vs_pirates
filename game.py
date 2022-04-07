@@ -7,8 +7,8 @@ tyler = Character('Tyler')
 michelangelo = Ninja("Michelanglo")
 donatello = Assassin('Donatello')
 
-jack_sparrow = Swashbuckler("Jack Sparrow")
 davy_jones = Pirate('Davy Jones')
+jack_sparrow = Swashbuckler("Jack Sparrow")
 
 def mortal_combat(attacker, defender):
     attacker.__class__.intro()
